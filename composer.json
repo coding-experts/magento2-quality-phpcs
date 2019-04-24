@@ -1,0 +1,26 @@
+{
+    "name": "codingexperts/magento2-quality-phpcs",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Coding Experts B.V.",
+        "email": "info@codingexperts.tech"
+    }],
+    "repositories": {
+        "magento": {
+            "url": "https://repo.magento.com",
+            "type": "composer"
+        }
+    },
+    "description": "PHPCS Coding standards for Magento 2 projects",
+    "homepage": "https://www.codingexperts.tech",
+    "keywords": [
+        "php",
+        "phpcs",
+        "phpcs-standard",
+        "magento2"
+    ],
+    "require": {
+        "squizlabs/php_codesniffer": "^2.6.2|^3.1.0"
+    }
+}
